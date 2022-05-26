@@ -7,8 +7,6 @@ interface BotaoProps {
 
 function Botao(props: BotaoProps) {
 
-    console.log(props.cor)
-
     return (
         <button onClick={props.onClick} className={`
         bg-gradient-to-r from-${props.cor}-400 to-${props.cor}-700
